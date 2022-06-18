@@ -41,8 +41,30 @@ contract Metaland is ERC721 {
         );
     }
 
+    function mint(uint256 _id) public payable {
+        uint256 supply = totalSupply;
+        require(supply <= maxSupply,"Supply exceeded max supply");
+        require(buildings[_id - 1].owner == address(0x0),"The building is already owned");
+        require(msg.value >= 1 ether, "Wrong Price");
 
+        buildings[_id - 1].owner = msg.sender;
+        totalSupply = totalSupply + 1;
+        _safeMint(msg.sender, _id);
+    }
 
-
+    function transferFrom(
+        address from, 
+        address to,
+        address tokenId,
+        bytes memory data
+        ) public override {
+            require(
+                _isApprovedOrOwner(_msgSender(), tokenId),
+                "ERC721 Transfer caller is not approved or is not owner"
+            );
+            buildings[tokenId - 1].owner = to;
+            _transferFrom(from, to, tokenId, _data);
+        
+    }
 
 }
