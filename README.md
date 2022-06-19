@@ -7,7 +7,7 @@
 
 - Front-end is written in React and React Three Fiber
 - Smart contracts are written using Solidity and OpenZeppelin standard contracts
-- web3 js is used to interface with deployed contracts. Congrats have been tested and deployed using truffle suite.
+- web3 js is used to interface with deployed contracts. Contracts have been tested and deployed using truffle suite.
 - The ERC-721 token is deployed as ITVB (IntoTheVerse Building Token)
 - Our Smart contract is deployed to Polygon Mumbai TestNetWork at [https://mumbai.polygonscan.com/tx/0xae5c5efb29bc2bfb2924263b3af355dab179cdb5799727ae8e15cb7b0ad8bebf](https://mumbai.polygonscan.com/tx/0xae5c5efb29bc2bfb2924263b3af355dab179cdb5799727ae8e15cb7b0ad8bebf)
 
