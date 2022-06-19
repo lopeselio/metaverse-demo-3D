@@ -22,6 +22,15 @@
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+require('dotenv').config();
+const Web3 = require("web3");
+// require('babel-polyfill');
+// require('babel-register');
+
+// const figmentKey = process.env.FIGMENT_API_KEY
+const PRIVATE_KEY = process.env.PRIVATE_KEY
+const Url = process.env.RPC_URL
 
 module.exports = {
   /**
@@ -45,6 +54,19 @@ module.exports = {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
+    },
+    mumbaiMatic: {
+      provider: function () {
+        return new HDWalletProvider(
+          process.env.PRIVATE_KEY,
+          'https://matic-mumbai.chainstacklabs.com'
+        )
+      },
+      network_id: 80001,
+      confirmations: 2,
+      timeoutBlocks: 200,
+      skipDryRun: true,
+      networkCheckTimeout: 100000
     },
     // Another network with more advanced options...
     // advanced: {
