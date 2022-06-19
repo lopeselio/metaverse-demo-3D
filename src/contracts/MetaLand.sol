@@ -29,17 +29,17 @@ contract MetaLand is ERC721 {
         cost = _cost;
 
         buildings.push(
-            Building("City Hall", address(0x0), 0, 0, 0, 10, 10, 10)
+            Building("Building 1", address(0x0), 0, 0, 0, 10, 10, 10)
         );
-        buildings.push(Building("Stadium", address(0x0), 0, 10, 0, 10, 5, 3));
+        buildings.push(Building("Building 2", address(0x0), 0, 15, 0, 10, 10, 3));
         buildings.push(
-            Building("University", address(0x0), 0, -10, 0, 10, 5, 3)
-        );
-        buildings.push(
-            Building("Shopping Plaza 1", address(0x0), 10, 0, 0, 5, 25, 5)
+            Building("Building 3", address(0x0), 0, -15, 0, 10, 10, 3)
         );
         buildings.push(
-            Building("Shopping Plaza 2", address(0x0), -10, 0, 0, 5, 25, 5)
+            Building("Building 4", address(0x0), 15, 0, 0, 10, 10, 5)
+        );
+        buildings.push(
+            Building("Building 5", address(0x0), -15, 0, 0, 10, 10, 5)
         );
     }
 
