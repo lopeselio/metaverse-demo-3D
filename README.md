@@ -17,6 +17,11 @@
   
 - You can view the mint tranaction here: [https://mumbai.polygonscan.com/tx/0xfe80483ab6cc8d55415111b85ac5ddebaa94ebd942803e16835c3f52436d0f6a](https://mumbai.polygonscan.com/tx/0xfe80483ab6cc8d55415111b85ac5ddebaa94ebd942803e16835c3f52436d0f6a)
 
+<img width="971" alt="image" src="https://user-images.githubusercontent.com/43913734/174493158-a13524c5-cdd1-4c2c-9249-49c490f69751.png">
+
+<h3>Why are genesis land sales useful for metaverse projects?</h3>
+- Genesis Land NFTs can be used as a membership/incentive pass for early minters to get access to the platform DAO, exclsuive airdrops of future NFT drops and ecosystem collaborations, periodic staking rewards for NFT holders, access to token gated spaces and much more!
+
 # Screenshots 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174480729-36a6cc06-10ab-45b8-b471-ee7f5ebf37b2.png">
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481326-d45e9483-27b6-4930-a8de-9ef85e476f82.png">
