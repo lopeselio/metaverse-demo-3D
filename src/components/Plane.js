@@ -3,7 +3,7 @@ import { useLoader } from '@react-three/fiber';
 
 // Import Assets
 import grass from '../assets/grass.jpeg';
-import grasstexture from '../assets/grasstexture.png';
+import grasstexture from '../assets/grasstexture.jpeg';
 
 const Plane = () => {
     const [surface, color] = useLoader(TextureLoader, [grasstexture, grass])

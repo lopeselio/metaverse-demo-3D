@@ -1,4 +1,11 @@
+import { TextureLoader } from 'three';
+import { useLoader } from '@react-three/fiber';
+
+import grass from '../assets/gravel.jpeg';
+import grasstexture from '../assets/graveltexture.jpeg';
+
 const Plot = ({ position, size, landId, landInfo, setLandName, setLandOwner, setHasOwner, setLandId }) => {
+    const [surface, color] = useLoader(TextureLoader, [grasstexture, grass])
     const clickHandler = () => {
         setLandName(landInfo.name)
         setLandId(landId)
@@ -15,7 +22,7 @@ const Plot = ({ position, size, landId, landInfo, setLandName, setLandOwner, set
     return (
         <mesh position={position} onClick={clickHandler}>
             <planeBufferGeometry attach="geometry" args={size} />
-            <meshStandardMaterial color={"#11E169"} metalness={0.5} roughness={0} />
+            <meshStandardMaterial map={color} normalMap={surface} />
         </mesh>
     );
 }
