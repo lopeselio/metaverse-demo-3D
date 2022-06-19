@@ -28,5 +28,9 @@ React Three Fiber + Solidity + Polygon Blockchain
 - If the plot is not owned, the details do not show up in the tab.
 - If you want to purchase the plot that is already owned on the virtual estate metaverse, you are not allowed to do so. 
 - You can however mint other plots of land in the metaverse
-- If there is an error occuring while buying, we get a notification 
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481379-24642904-b8d4-4bb3-b6d0-f43eac023280.png">
+- If there is an error occuring while buying, we get a notification, with the error message 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481428-500e6e43-faff-4ca7-88e4-5c4c4e47ca86.png">
+
+After connecting with another wallet, we can mint the remaining plots of land, and the houses become visible in the process of mint
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481498-bef87bc6-c07a-4d6f-bc04-c2ec98bfe36f.png">
+
