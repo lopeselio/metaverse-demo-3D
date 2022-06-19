@@ -1,4 +1,4 @@
-# Land Sales Demo 
+# Metaverse Virtual Estate 
 <h1>Built with React Three Fiber + Solidity Smart Contracts on Polygon Blockchain</h1>
 
 **A 3D virtual estate platform to buy virtual estate, powered by Polygon Blockchain**
