@@ -19,4 +19,14 @@ React Three Fiber + Solidity + Polygon Blockchain
 
 # Screenshots 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174480729-36a6cc06-10ab-45b8-b471-ee7f5ebf37b2.png">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481326-d45e9483-27b6-4930-a8de-9ef85e476f82.png">
 
+- While buying a plot of land on the blockchain, the buyer has to pay 1 MATIC token as fee along with small amount of gas to pay for the network transactions. 
+- After the plot has been minted, we see a 3D house (.GLTF) asset upright. In the bottom, we also see that the plot has already been owned by the buyer (Check the connected wallet address and the owner address in the bottom right tab match with each other)
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481358-b01f3afc-d4e7-4dbe-845e-7030ea52a7ef.png">
+
+- If the plot is not owned, the details do not show up in the tab.
+- If you want to purchase the plot that is already owned on the virtual estate metaverse, you are not allowed to do so. 
+- You can however mint other plots of land in the metaverse
+- If there is an error occuring while buying, we get a notification 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/43913734/174481379-24642904-b8d4-4bb3-b6d0-f43eac023280.png">
