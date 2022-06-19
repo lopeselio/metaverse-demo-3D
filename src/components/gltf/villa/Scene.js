@@ -14,7 +14,7 @@ export default function Model({ ...props }) {
   const { nodes, materials } = useGLTF('/scene.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
+      <group rotation={[-Math.PI, -Math.PI, -Math.PI]} scale={[0.4,0.4,0.4]}>
         <mesh geometry={nodes.Object_2.geometry} material={materials.phong10SG} />
         <mesh geometry={nodes.Object_3.geometry} material={materials.abcinitialShadingGroup} />
         <mesh geometry={nodes.Object_4.geometry} material={materials.phong2SG} />
