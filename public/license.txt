@@ -1,0 +1,11 @@
+Model Information:
+* title:	Villa
+* source:	https://sketchfab.com/3d-models/villa-7c91acf717b14779adf8a6ac48a2d330
+* author:	Vineet02 (https://sketchfab.com/Vineet02)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Villa" (https://sketchfab.com/3d-models/villa-7c91acf717b14779adf8a6ac48a2d330) by Vineet02 (https://sketchfab.com/Vineet02) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

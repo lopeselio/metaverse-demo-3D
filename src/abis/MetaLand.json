@@ -24555,12 +24555,12 @@
     "1655623793089": {
       "events": {},
       "links": {},
-      "address": "0xa6d0fEB87dBcCD4d344d291242d03d3fE7C4E295",
-      "transactionHash": "0xd167ad4b1b886a7e81d630d90aa277ad7bbd754714e5996f05a1cda7f46260db"
+      "address": "0xEC4847a70DCB506D6595c5EB34d16E70961bdbba",
+      "transactionHash": "0x2cbdf5dd1b06671202b5672512d1b3d95448013e907475756d755a71f139483a"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-19T07:32:40.064Z",
+  "updatedAt": "2022-06-19T09:43:24.908Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
